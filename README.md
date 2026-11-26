@@ -141,7 +141,7 @@ Copyright remains with the original author.
 See the LICENSE file for details.
 
 ## Author
-- Kohtaro R. Araragi (JAXA/SAOC)
+- Kohtaro R. Araragi 
 
 ## Acknowledgments / References
 ### [参考文献・利用ライブラリ等] ###
