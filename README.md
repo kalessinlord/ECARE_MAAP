@@ -9,8 +9,8 @@ ESA MAAP上のデータについてはダウンロードなしの処理も可能
 
 ## 2. Features
 - MAAPからのデータ取得
-- 期間指定（※長期間の設定も可能です、ただし、ダウンロード時間にはご注意ください）とプロダクトID+バージョンのシンプルな指定
-- 長期間の指定が可能。
+- 期間指定とプロダクトID+バージョンのシンプルな指定
+- 長期間の指定が可能。（※ダウンロード時間にはご注意ください）
 - ダウンロードディスクの容量確認機能
 - 並列取得の設定
 - Colab上動作時の自動設定（Google Driveのマウントも自動で実施してくれます。）
@@ -71,11 +71,11 @@ target_var="DA" #次のFLG_VAR_LATESTが0かつ、バージョンを固定した
 ####  カタログの指定
 L1, ESA L2, JAXA L2でカタログを個別に指定。
 EC_COLLECTION = ['EarthCAREL1Validated_MAAP']
-['EarthCAREL1Validated_MAAP'] : ESA/JAXA L1 (???_???_1?)
-['EarthCAREL2Validated_MAAP'] : ESA L2 (JAXA L2以外)
-['JAXAL2Validated_MAAP']      : JAXA L2 (???_CLP_2?)
-JAXA L2 : CPR_ECO,CPR_CLP, MSI_CLP, ATL_CLA, AC__CLP, ACM_CLP, ALL_RAD 
-ECO/CLP or CLA/ALL_RAD
+['EarthCAREL1Validated_MAAP'] : ESA/JAXA L1 (???_???_1?)  
+['EarthCAREL2Validated_MAAP'] : ESA L2 (JAXA L2以外)   
+['JAXAL2Validated_MAAP']      : JAXA L2 (???_CLP_2?)   
+JAXA L2 : CPR_ECO,CPR_CLP, MSI_CLP, ATL_CLA, AC__CLP, ACM_CLP, ALL_RAD    
+ECO/CLP or CLA/ALL_RAD   
 
 #### ディレクトリの指定
 Colabの場合 /content/drive/MyDrive以下を指定する。
